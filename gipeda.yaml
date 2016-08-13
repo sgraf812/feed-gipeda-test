@@ -1,0 +1,8 @@
+benchmarks:
+  - match: "*"
+    smallerIsBetter: True
+    threshold: 3
+    type: integral
+    group: (ungrouped)
+benchmarkScript: ! 'echo "stub/metric;42"'
+
